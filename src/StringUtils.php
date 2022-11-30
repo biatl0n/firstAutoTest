@@ -2,6 +2,8 @@
 
 namespace StringUtils;
 
+require_once __DIR__.'/../vendor/autoload.php';
+
 function capitalize(string $text)
 {
     if ($text === '') {
